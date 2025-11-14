@@ -36,4 +36,3 @@ class GlobalTaskSet(TaskSet):
 class GlobalSocialMediaUser(HttpUser):
     wait_time = between(1, 5)
     tasks = [GlobalTaskSet]
-
